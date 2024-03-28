@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2024-01-25 18:00:00-0000
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+We released two new papers on ArXiv! Check them out: [ServerlessLLM](https://arxiv.org/abs/2401.14351) and [MoE-Infinite](https://arxiv.org/abs/2401.14361)
