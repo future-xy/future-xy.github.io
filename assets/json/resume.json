@@ -41,7 +41,7 @@
     },
     {
       "name": "ServerlessLLM: Locality-Enhanced Serverless Inference for Large Language Models",
-      "publisher": "arXiv",
+      "publisher": "OSDI",
       "releaseDate": "2024",
       "url": "https://arxiv.org/abs/2401.14351"
     },
@@ -53,7 +53,7 @@
     },
     {
       "name": "TorchOpt: An Efficient Library for Differentiable Optimization",
-      "publisher": "Journal of Machine Learning Research",
+      "publisher": "JMLR",
       "releaseDate": "2023",
       "url": "http://jmlr.org/papers/v24/23-0191.html"
     }
