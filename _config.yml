@@ -5,14 +5,14 @@
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Yao
 middle_name: 
-last_name: Fu
+last_name: Fu (符 尧)
 email: Y.Fu@ed.ac.uk
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Hi there!
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: "Yao Fu, Yao, Fu, University of Edinburgh, Edinburgh, UK, China, Chinese, PhD, PhD student, PhD candidate"
+keywords: "Yao Fu, Yao, Fu, University of Edinburgh, Edinburgh, UK, China, Chinese, PhD, PhD student, PhD candidate, OSDI"
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
