@@ -5,7 +5,6 @@
     "image": "",
     "email": "Y.Fu@ed.ac.uk",
     "url": "https://future-xy.github.io",
-    "summary": "A",
     "location": {
       "address": "1.45, Informatics Forum",
       "postalCode": "EH8 9AB",
@@ -93,10 +92,10 @@
       "url": "https://github.com/TorchMoE/MoE-Infinity"
     },
     {
-      "name": "TorchOpt",
-      "summary": "An efficient library for differentiable optimization built upon PyTorch",
-      "highlights": ["Differentiable Optimization", "Efficient Library"],
-      "url": "https://github.com/metaopt/torchopt"
+      "name": "Open-MoE-LLM-Leaderboard",
+      "summary": "A new benchmark to assess performance, cost, and quality of sparse MoE models and systems",
+      "highlights": ["Benchmark", "MoE", "Sparse Models"],
+      "url": "https://huggingface.co/spaces/sparse-generative-ai/open-moe-llm-leaderboard"
     }
   ]
 }
