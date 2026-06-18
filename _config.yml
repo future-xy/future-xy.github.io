@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Yao
 middle_name: 
 last_name: Fu (符 尧)
-email: Y.Fu@ed.ac.uk
+email: yaof@nvidia.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Hi there!
 footer_text: >
@@ -103,7 +103,7 @@ zotero_username: # your zotero username
 wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 
 contact_note: >
-  Preferably reach me by email, thanks! 👋🏼👋🏼
+  Preferably reach me by email: yaof@nvidia.com (NVIDIA) or Y.Fu@ed.ac.uk (Edinburgh). Thanks! 👋🏼👋🏼
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -122,8 +122,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: Yao Fu # blog_name will be displayed in your blog page
+blog_description: Thoughts on LLM inference, systems research, and machine learning.
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -177,7 +177,7 @@ collections:
 announcements:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  limit: 3 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: false
@@ -260,8 +260,7 @@ sass:
 
 jekyll-minifier:
   exclude: ["robots.txt"]
-  uglifier_args:
-    harmony: true
+  uglifier_args: {}
 
 # -----------------------------------------------------------------------------
 # Jekyll Archives
@@ -278,8 +277,8 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["formatting", "images", "links", "math", "code"] # these tags will be displayed on the front page of your blog
-display_categories: ["blockquotes"] # these categories will be displayed on the front page of your blog
+display_tags: ["LLM", "systems", "serverless"] # these tags will be displayed on the front page of your blog
+display_categories: ["research"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar

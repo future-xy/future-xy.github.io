@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+gem 'ostruct' # required by jekyll-twitter-plugin on Ruby 4.0+
 group :jekyll_plugins do
     gem 'classifier-reborn'
     gem 'jekyll'
@@ -16,7 +17,7 @@ group :jekyll_plugins do
     gem 'jekyll-toc'
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
-    gem 'mini_racer'
+    gem 'execjs'
     gem 'unicode_utils'
     gem 'webrick'
 end
