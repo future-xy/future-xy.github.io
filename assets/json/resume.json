@@ -1,13 +1,12 @@
 {
   "basics": {
     "name": "Yao Fu",
-    "label": "Ph.D. Candidate",
+    "label": "Deep Learning Engineer at NVIDIA",
     "image": "",
-    "email": "Y.Fu@ed.ac.uk",
+    "email": "yaof@nvidia.com",
     "url": "https://future-xy.github.io",
+    "summary": "AI systems researcher focused on generative AI infrastructure, LLM inference, and distributed systems. Ph.D. in Computer Science from the University of Edinburgh, with research experience at NVIDIA, Genmo AI, Microsoft Research Asia, and Tencent, and work published at OSDI, NeurIPS, and JMLR. MLCommons Rising Star, 2024.",
     "location": {
-      "address": "1.45, Informatics Forum",
-      "postalCode": "EH8 9AB",
       "city": "Edinburgh",
       "countryCode": "UK",
       "region": "Scotland"
@@ -22,19 +21,19 @@
   },
   "education": [
     {
-      "institution": "The University of Edinburgh", 
+      "institution": "The University of Edinburgh",
       "location": "Edinburgh, UK",
       "url": "https://www.ed.ac.uk",
       "area": "Computer Science",
       "studyType": "Ph.D.",
       "startDate": "2021-09",
-      "endDate": "present"
+      "endDate": "2026-08"
     },
     {
       "institution": "Sun Yat-sen University",
       "location": "Guangzhou, China",
       "url": "https://www.sysu.edu.cn",
-      "area": "Computer Science",
+      "area": "Computer Science and Technology",
       "studyType": "B.Eng.",
       "startDate": "2017-09",
       "endDate": "2021-06"
@@ -64,6 +63,60 @@
       "publisher": "JMLR",
       "releaseDate": "2023",
       "url": "http://jmlr.org/papers/v24/23-0191.html"
+    },
+    {
+      "name": "MoE-CAP: Benchmarking Cost, Accuracy and Performance of Sparse Mixture-of-Experts Systems",
+      "publisher": "NeurIPS 2025 Datasets and Benchmarks Track",
+      "releaseDate": "2025",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/74bd547997917a20331d6df5e6049d6a-Abstract-Datasets_and_Benchmarks_Track.html"
+    }
+  ],
+  "projects": [
+    {
+      "name": "ServerlessLLM",
+      "summary": "Locality-Enhanced Serverless Inference for Large Language Models",
+      "startDate": "2022-04",
+      "endDate": "2026-01",
+      "highlights": [
+        "Developed loading-optimized checkpoint format achieving 4X faster loading than Safetensors",
+        "Designed live-migration mechanism delivering 2X performance improvement over serverless scheduling",
+        "Built locality-aware server allocation reducing start-up latency by 1.86X",
+        "Achieved 10-200X speedup compared to SOTA systems (Ray Serve, KServe)",
+        "700+ GitHub stars"
+      ],
+      "url": "https://github.com/ServerlessLLM/ServerlessLLM"
+    },
+    {
+      "name": "MoE-Infinity",
+      "summary": "Activation-Aware Expert Offloading for Efficient MoE Serving",
+      "startDate": "2022-04",
+      "endDate": "2025-03",
+      "highlights": [
+        "Created Python binding compatible with HuggingFace Transformers",
+        "Built OpenAI-compatible API server for high-throughput serving",
+        "Optimized tensor prefetching and caching for Mixture of Experts models",
+        "Delivered 9X performance improvement over DeepSpeed Infinity",
+        "300+ GitHub stars"
+      ],
+      "url": "https://github.com/TorchMoE/MoE-Infinity"
+    },
+    {
+      "name": "Machine Learning Systems: Design and Implementation",
+      "summary": "Textbook; authored chapters on Deep Learning Recommendation Systems and Federated Learning",
+      "startDate": "2022-01",
+      "endDate": "2023-05",
+      "highlights": [
+        "Chinese Edition: ISBN 978-7-30-263007-4, openmlsys.github.io",
+        "English Edition: openmlsys.github.io/html-en",
+        "4000+ GitHub stars (openmlsys/openmlsys-zh)"
+      ],
+      "url": "https://openmlsys.github.io"
+    },
+    {
+      "name": "Open-MoE-LLM-Leaderboard",
+      "summary": "A new benchmark to assess performance, cost, and quality of sparse MoE models and systems",
+      "highlights": ["Benchmark", "MoE", "Sparse Models"],
+      "url": "https://huggingface.co/spaces/sparse-generative-ai/open-moe-llm-leaderboard"
     }
   ],
   "languages": [
@@ -76,26 +129,6 @@
       "language": "English",
       "fluency": "Fluent",
       "icon": ""
-    }
-  ],
-  "projects": [
-    {
-      "name": "ServerlessLLM",
-      "summary": "Locality-Enhanced Serverless Inference for Large Language Models",
-      "highlights": ["Serverless", "Inference", "Large Language Models"],
-      "url": "https://github.com/ServerlessLLM/ServerlessLLM"
-    },
-    {
-      "name": "MoE-Infinity",
-      "summary": "Cost-effective, fast, and easy-to-use library for Mixture-of-Experts (MoE) inference and serving",
-      "highlights": ["MoE", "Expert Offloading", "Efficient Serving"],
-      "url": "https://github.com/TorchMoE/MoE-Infinity"
-    },
-    {
-      "name": "Open-MoE-LLM-Leaderboard",
-      "summary": "A new benchmark to assess performance, cost, and quality of sparse MoE models and systems",
-      "highlights": ["Benchmark", "MoE", "Sparse Models"],
-      "url": "https://huggingface.co/spaces/sparse-generative-ai/open-moe-llm-leaderboard"
     }
   ]
 }
